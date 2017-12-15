@@ -1,0 +1,18 @@
+DI(Dependency Injection) is a software pattern that helps to reduce tight coupling between components used.
+This help in making and managing changes without modifying the actual host code.
+The purpose of DI is to make code maintainable
+
+The process is like making an interface instance of desirable code and uses it, manage/alter it for better functionalities without really changing the original code at all.
+
+Few types of DI are:
+Constructor Injection.
+Property Injection.
+Method Injection.
+
+Advantages:
+Loose coupling of components.
+Increases the usability of the code.
+Helps in maintainability of the code.
+
+InternsBackEndTeam,
+Ziyad.
