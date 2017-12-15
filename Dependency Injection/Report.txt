@@ -14,5 +14,3 @@ Loose coupling of components.
 Increases the usability of the code.
 Helps in maintainability of the code.
 
-InternsBackEndTeam,
-Ziyad.
