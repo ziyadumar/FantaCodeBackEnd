@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using System;
+
 public class Startup
 {
     private static void HandleBranch(IApplicationBuilder app)
@@ -27,6 +28,7 @@ public class Startup
         app.Run(async context =>
         {
             await context.Response.WriteAsync("Map Test 2");
+            
         });
     }
 
