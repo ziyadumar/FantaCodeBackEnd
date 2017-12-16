@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-  <EmbeddedResource Include="Resource.txt;**\*.js" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
+  <EmbeddedResource Include="ATextFile.txt;**\*.js" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
   <Content Update="wwwroot\**\*;Views\**\*;Areas\**\Views;appsettings.json;web.config">
     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
   </Content>
