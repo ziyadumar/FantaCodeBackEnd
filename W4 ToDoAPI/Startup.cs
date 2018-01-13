@@ -1,4 +1,5 @@
 ﻿
+using System.Reflection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,6 +13,8 @@ namespace TodoApi
         {
             services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("TodoList"));
             services.AddMvc();
+                // .AddApplicationPart(Assembly.Load(new AssemblyName("Project.Accounts"))) //Accounts Module
+                // .AddApplicationPart(Assembly.Load(new AssemblyName("Project.Files")));
         }
 
         public void Configure(IApplicationBuilder app)
