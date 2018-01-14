@@ -13,6 +13,7 @@ namespace TodoApi
         {
             services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("TodoList"));
             services.AddMvc();
+            // loading projects into main projects
                 // .AddApplicationPart(Assembly.Load(new AssemblyName("Project.Accounts"))) //Accounts Module
                 // .AddApplicationPart(Assembly.Load(new AssemblyName("Project.Files")));
         }
